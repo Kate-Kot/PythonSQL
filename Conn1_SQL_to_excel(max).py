@@ -129,7 +129,7 @@ print(dict1)
 
 df = pd.DataFrame(dict1)
 
-df.to_excel('C:/Users/MLV3186/OneDrive - KraftHeinz/Desktop/Анализ_нагрузок_по_вводам.xlsx', sheet_name='Потребители', index=False)
+df.to_excel('/Анализ_нагрузок_по_вводам.xlsx', sheet_name='Потребители', index=False)
 
 
 
