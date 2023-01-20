@@ -126,7 +126,7 @@ print(dict1)
 
 df = pd.DataFrame(dict1)
 
-df.to_excel('C:/Users/MLV3186/OneDrive - KraftHeinz/Desktop/Максимальный_ток.xlsx', sheet_name='Потребители', index=False)
+df.to_excel('/Максимальный_ток.xlsx', sheet_name='Потребители', index=False)
 
 
 
