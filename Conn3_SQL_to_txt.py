@@ -104,8 +104,8 @@ while k < len(potr1):
 conn.close()
 
 print(a)
-fa = open("C:/Users/MLV3186/OneDrive - KraftHeinz/Desktop/test1.txt", 'w', encoding='utf8')
-#fa = open("//vs22-khc-rus/Otradnoe/TEAM/ARCHIV/Info/Справочник/Учёт энергоресурсов (utilites)/Учет электроэнергии/архив/test1.txt", 'w', encoding='utf8')
+fa = open("/test1.txt", 'w', encoding='utf8')
+
 fa.write(f'Данные за период с {Date1} по {Date2}' + '\n')
 for i in a:
   fa.write(i + '\n')
